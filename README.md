@@ -1,27 +1,23 @@
-# Android Project 5 - *BitFit*
+# Android Project 6 - *BitFit*
 
 Submitted by: **Nishant Nair**
 
 **BitFit** is a health metrics app that allows users to track ... [TODO] 
 
-Time spent: **2** hours spent in total
+Time spent: **1** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] **At least one health metric is tracked (based on user input)**
-  - Chosen metric(s): `[TODO: FILL ME IN TO GET CREDIT]`
-- [x] **There is a "create entry" UI that prompts users to make their daily entry**
-- [x] **New entries are saved in a database and then updated in the RecyclerView**
-- [x] **On application restart, previously entered entries are preserved (i.e., are *persistent*)**
- 
+- [x] **Use at least 2 Fragments**
+- [x] **Create a new dashboard fragment where users can see a summary of their entered data**
+- [x] **Use one of the Navigation UI Views (BottomNavigation, Drawer Layout, Top Bar) to move between the fragments**
+
 The following **optional** features are implemented:
 
-- [x] **Create a UI for tracking averages and trends in metrics**
-- [x] **Improve and customize the user interface through styling and coloring**
-- [x] **Implement orientation responsivity**
-- [x] **Add a daily photo feature**
+- [x] **Add a more advanced UI (e.g: Graphing) for tracking trends in metrics**
+- [x] **Implement daily notifications to prompt users to fill in their data**
 
 The following **additional** features are implemented:
 
@@ -35,8 +31,7 @@ Here's a walkthrough of implemented user stories:
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ezgif.com
-
-![gifproject5](https://github.com/user-attachments/assets/96ce3db8-da83-427b-98e1-272d37ae674b)
+![gifproject6](https://github.com/user-attachments/assets/2ec3dbd8-d161-41e9-bf0e-2f2d67af1fa8)
 
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
