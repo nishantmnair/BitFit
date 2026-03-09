@@ -7,7 +7,7 @@ import androidx.room.RoomDatabase
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
 
-@Database(entities = [FoodEntity::class], version = 2)
+@Database(entities = [FoodEntity::class], version = 3)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun foodDao(): FoodDao
 
@@ -17,7 +17,6 @@ abstract class AppDatabase : RoomDatabase() {
 
         private val MIGRATION_1_2 = object : Migration(1, 2) {
             override fun migrate(db: SupportSQLiteDatabase) {
-                db.execSQL("ALTER TABLE food_table ADD COLUMN feeling INTEGER")
                 db.execSQL("ALTER TABLE food_table ADD COLUMN notes TEXT")
                 db.execSQL("ALTER TABLE food_table ADD COLUMN photo_path TEXT")
                 db.execSQL("ALTER TABLE food_table ADD COLUMN date TEXT")
